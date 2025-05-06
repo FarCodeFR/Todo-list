@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #eeeef0;
+}
+
+h1,
+h2,
+h3 {
+	font-family: sans-serif;
+}
+ul,
+li {
+	text-decoration: none;
+	list-style: none;
+	font-family: sans-serif;
+}
+label,
+h2,
+h3,
+p {
+	color: #ffffff;
+}

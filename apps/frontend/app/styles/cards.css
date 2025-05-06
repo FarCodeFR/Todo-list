@@ -1,0 +1,54 @@
+.container-cards {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 2%;
+	margin: 10% auto;
+	width: 90%;
+	border: solid #93b4ff 2px;
+	border-radius: 15px;
+	& h3 + p {
+		max-width: max-content;
+	}
+	& input {
+		cursor: pointer;
+		margin: 0;
+	}
+	& section:first-of-type {
+		width: 50%;
+		align-content: center;
+		text-align: center;
+	}
+	& section {
+		display: flex;
+		justify-content: space-evenly;
+		height: 20%;
+		width: 100%;
+		& button {
+			cursor: pointer;
+			border-radius: 10px;
+			width: 25%;
+			height: 30px;
+		}
+		& button:hover {
+			color: rgb(255, 255, 255);
+			background-color: rgb(0, 0, 0);
+			transition: 0.1s ease-in;
+			border: solid #93b4ff 2px;
+		}
+	}
+}
+.container-modif-visible {
+	width: 30%;
+	border-radius: 5px;
+	background: none;
+	padding: 5px;
+	border: solid white 1px;
+	color: white;
+}
+.container-modif-visible::placeholder {
+	color: white;
+}
+

@@ -2,6 +2,7 @@
   "name": "todo-monorepo",
   "private": true,
   "scripts": {
+    "seed": "ts-node packages/db/src/seeds/initial-cards.ts",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
@@ -9,6 +10,8 @@
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/pg": "^8.11.14",
     "prettier": "^3.5.3",
     "turbo": "^2.5.2",
     "typescript": "5.8.2"
@@ -20,5 +23,13 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.2",
+    "dotenv": "^16.5.0",
+    "drizzle-kit": "^0.31.0",
+    "drizzle-orm": "^0.43.1",
+    "pg": "^8.15.6"
+  }
 }
