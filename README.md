@@ -1,7 +1,7 @@
 
 Todo List Monorepo
 
-Permet d'ajouter des notes, de les modifier et de les supprimer ou de les cocher comment realisé
+Permet d'ajouter des notes, de les modifier et de les supprimer ou de les cocher comme realisé
 
 <img width="746" alt="Todo-list" src="https://github.com/user-attachments/assets/39983cb4-6471-4856-8f96-794c411df87a" />
 
